@@ -1,7 +1,7 @@
 To run this suite -
 1. You need to have Java JDK, eclipse installed.
 2. This is designed with Java and TESTNG as the basic framework.
-3. Download the repo from the git path.
+3. Download the repo from the git path -https://github.com/pthaks/prudential_tests.git
 4. Import the project in eclipse.
 5. You need to update build path to include all the jar files from lib folder and user library as TESTNG
 4. Tests are added as per the scenarios in Tests.java -
@@ -10,7 +10,7 @@ To run this suite -
 	c. scenario 3 - validCities
 	d. scenario 4 - invalid city names like special chars, a, b, c etc.
 5. Right Click on Runner.xml -> Run as TestNg suite.
-6. This should be run chromedriver.
+6. Tests are run on chrome browser only.
 7. Have attached the console outout (consoleoutput.txt) for your perusable.
 
 

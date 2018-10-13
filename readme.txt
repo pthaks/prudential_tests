@@ -5,7 +5,7 @@ To run this suite -
 4. Import the project in eclipse.
 5. You need to update build path to include all the jar files from lib folder and user library as TESTNG
 4. Tests are added as per the scenarios in Tests.java -
-	a. scenario 1- 
+	a. scenario 1- Verify important info on the site
 	b. scenario 2 - invalidCities
 	c. scenario 3 - validCities
 	d. scenario 4 - invalid city names like special chars, a, b, c etc.

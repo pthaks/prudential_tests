@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PrudentialSuite" duration-ms="107606" started-at="2018-10-13T13:29:10Z" finished-at="2018-10-13T13:30:57Z">
+    <groups>
+    </groups>
+    <test name="Tests" duration-ms="107606" started-at="2018-10-13T13:29:10Z" finished-at="2018-10-13T13:30:57Z">
+      <class name="prudential.tests.Tests">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:prudential.tests.Tests@4520ebad]" name="beforeTest" is-config="true" duration-ms="21224" started-at="2018-10-13T18:59:10Z" finished-at="2018-10-13T18:59:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verifySite()[pri:1, instance:prudential.tests.Tests@4520ebad]" name="verifySite" duration-ms="242" started-at="2018-10-13T18:59:31Z" finished-at="2018-10-13T18:59:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySite -->
+        <test-method status="PASS" signature="invalidCities()[pri:2, instance:prudential.tests.Tests@4520ebad]" name="invalidCities" duration-ms="4129" started-at="2018-10-13T18:59:31Z" finished-at="2018-10-13T18:59:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCities -->
+        <test-method status="PASS" signature="validCities(java.lang.String, java.lang.String)[pri:3, instance:prudential.tests.Tests@4520ebad]" name="validCities" duration-ms="1433" started-at="2018-10-13T18:59:35Z" data-provider="getCityNames" finished-at="2018-10-13T18:59:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[city]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[London, GB]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCities -->
+        <test-method status="PASS" signature="validCities(java.lang.String, java.lang.String)[pri:3, instance:prudential.tests.Tests@4520ebad]" name="validCities" duration-ms="655" started-at="2018-10-13T18:59:37Z" data-provider="getCityNames" finished-at="2018-10-13T18:59:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[city]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[agra, IN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCities -->
+        <test-method status="PASS" signature="validCities(java.lang.String, java.lang.String)[pri:3, instance:prudential.tests.Tests@4520ebad]" name="validCities" duration-ms="377" started-at="2018-10-13T18:59:38Z" data-provider="getCityNames" finished-at="2018-10-13T18:59:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[city]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Goa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCities -->
+        <test-method status="PASS" signature="invalidCityInputs(java.lang.String, java.lang.String)[pri:4, instance:prudential.tests.Tests@4520ebad]" name="invalidCityInputs" duration-ms="15245" started-at="2018-10-13T18:59:38Z" data-provider="invalidcityinputs" finished-at="2018-10-13T18:59:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[city]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCityInputs -->
+        <test-method status="PASS" signature="invalidCityInputs(java.lang.String, java.lang.String)[pri:4, instance:prudential.tests.Tests@4520ebad]" name="invalidCityInputs" duration-ms="15258" started-at="2018-10-13T18:59:53Z" data-provider="invalidcityinputs" finished-at="2018-10-13T19:00:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[city]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[c123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCityInputs -->
+        <test-method status="PASS" signature="invalidCityInputs(java.lang.String, java.lang.String)[pri:4, instance:prudential.tests.Tests@4520ebad]" name="invalidCityInputs" duration-ms="15289" started-at="2018-10-13T19:00:08Z" data-provider="invalidcityinputs" finished-at="2018-10-13T19:00:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[city]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCityInputs -->
+        <test-method status="PASS" signature="invalidCityInputs(java.lang.String, java.lang.String)[pri:4, instance:prudential.tests.Tests@4520ebad]" name="invalidCityInputs" duration-ms="15412" started-at="2018-10-13T19:00:24Z" data-provider="invalidcityinputs" finished-at="2018-10-13T19:00:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[city]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[%$#%$#%$#%]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCityInputs -->
+        <test-method status="PASS" signature="invalidCityInputs(java.lang.String, java.lang.String)[pri:4, instance:prudential.tests.Tests@4520ebad]" name="invalidCityInputs" duration-ms="15230" started-at="2018-10-13T19:00:39Z" data-provider="invalidcityinputs" finished-at="2018-10-13T19:00:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[city]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCityInputs -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:prudential.tests.Tests@4520ebad]" name="cleanUp" is-config="true" duration-ms="3041" started-at="2018-10-13T19:00:54Z" finished-at="2018-10-13T19:00:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- prudential.tests.Tests -->
+    </test> <!-- Tests -->
+  </suite> <!-- PrudentialSuite -->
+</testng-results>

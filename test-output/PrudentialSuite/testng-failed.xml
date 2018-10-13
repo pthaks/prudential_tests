@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PrudentialSuite]">
+  <test name="Tests(failed)">
+    <classes>
+      <class name="prudential.tests.Tests">
+        <methods>
+          <include name="invalidCities"/>
+          <include name="beforeTest"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- prudential.tests.Tests -->
+    </classes>
+  </test> <!-- Tests(failed) -->
+</suite> <!-- Failed suite [PrudentialSuite] -->

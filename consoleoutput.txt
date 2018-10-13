@@ -1,0 +1,111 @@
+Starting ChromeDriver 2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5) on port 34167
+Only local connections are allowed.
+Oct 13, 2018 12:38:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+1. Starts on the httpsopenweathermap.org
+Scenario 1 Starts ----------------------
+Page title --> ?urrent weather and forecast - OpenWeatherMap
+Unit Checks - Celcius and Farhenite are present
+Header title --> Current weather and forecasts in your city
+City search box is present
+Scenario 1 Ends ----------------------
+
+Scenario 2 Starts ----------------------
+2.Enters an invalid city name
+3.Searches for the weather
+4.Verifies that website suggests city is Not found
+City name -- abcde is Not found
+Scenario 2 Ends ----------------------
+
+Scenario 3 Starts ----------------------
+2. Enters a valid city name
+3.Searches for the weather
+Result of London, GB*******************
+London, GB Sky is Clear
+18.7°? temperature from 18 to 19 °?, wind 5.7 m/s. clouds 0 %, 1010 hpa
+Geo coords [51.5073, -0.1277]
+End of result *******************************
+
+Scenario 3 Ends ----------------------
+
+Scenario 3 Starts ----------------------
+2. Enters a valid city name
+3.Searches for the weather
+Result of agra, IN*******************
+Agra, IN Sky is Clear
+31.2°? temperature from 31.2 to 31.2 °?, wind 1.96 m/s. clouds 0 %, 1007.53 hpa
+Geo coords [27.1753, 78.0098]
+End of result *******************************
+
+Scenario 3 Ends ----------------------
+
+Scenario 3 Starts ----------------------
+2. Enters a valid city name
+3.Searches for the weather
+Result of Goa*******************
+Goa, PH moderate rain
+28.3°? temperature from 28.3 to 28.3 °?, wind 3.91 m/s. clouds 76 %, 1014.02 hpa
+Geo coords [13.6969, 123.4891]Goa, RU scattered clouds
+10.2°? temperature from 10.2 to 10.2 °?, wind 1.21 m/s. clouds 48 %, 958.89 hpa
+Geo coords [41.7538, 47.7008]Goa, BF Sky is Clear
+22.3°? temperature from 22.3 to 22.3 °?, wind 3.41 m/s. clouds 0 %, 994.16 hpa
+Geo coords [12.6049, -2.9024]Goa, NC few clouds
+23.4°? temperature from 23.4 to 23.4 °?, wind 7.51 m/s. clouds 24 %, 1020.75 hpa
+Geo coords [-21.1063, 165.3109]Goa, NO rain and drizzle
+14.5°? temperature from 14 to 15 °?, wind 8.7 m/s. clouds 75 %, 1009 hpa
+Geo coords [58.9889, 5.6275]
+End of result *******************************
+
+Scenario 3 Ends ----------------------
+
+Scenario 4 Starts ----------------------
+2. Enters Invalid city input
+3.Searches for the weather
+Result of a*******************
+Not valid city input
+End of result *******************************
+
+Scenario 4 Ends ----------------------
+
+Scenario 4 Starts ----------------------
+2. Enters Invalid city input
+3.Searches for the weather
+Result of c123*******************
+Not valid city input
+End of result *******************************
+
+Scenario 4 Ends ----------------------
+
+Scenario 4 Starts ----------------------
+2. Enters Invalid city input
+3.Searches for the weather
+Result of *******************
+Not valid city input
+End of result *******************************
+
+Scenario 4 Ends ----------------------
+
+Scenario 4 Starts ----------------------
+2. Enters Invalid city input
+3.Searches for the weather
+Result of %$#%$#%$#%*******************
+Not valid city input
+End of result *******************************
+
+Scenario 4 Ends ----------------------
+
+Scenario 4 Starts ----------------------
+2. Enters Invalid city input
+3.Searches for the weather
+Result of 3*******************
+Not valid city input
+End of result *******************************
+
+Scenario 4 Ends ----------------------
+
+
+===============================================
+PrudentialSuite
+Total tests run: 10, Failures: 0, Skips: 0
+===============================================
+
